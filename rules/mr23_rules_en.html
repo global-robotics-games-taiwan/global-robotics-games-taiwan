@@ -3,23 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRG 2026 - MR2 & MR3 (English) 完整中文規則</title>
+    <title>GRG 2026 - MR2 & MR3 (English) 完整競賽規則 | Global Robotics Games Taiwan</title>
+    <meta name="description" content="2026 Global Robotics Games (GRG) 台灣賽區 MR2 & MR3 (English) 詳細競賽規則、年齡規範、器材限制、任務場地圖與評分標準說明。">
+    <meta name="keywords" content="GRG, GRG 2026, MR2 & MR3 (English), Global Robotics Games, 競賽規則, 機器人比賽, SPARK, 臺灣智能程式科技教育推廣協會">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://global-robotics-games-taiwan.github.io/rules/mr23_rules_en.html">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://global-robotics-games-taiwan.github.io/rules/mr23_rules_en.html">
+    <meta property="og:title" content="GRG 2026 - MR2 & MR3 (English) 完整競賽規則 | Global Robotics Games Taiwan">
+    <meta property="og:description" content="2026 Global Robotics Games (GRG) 台灣賽區 MR2 & MR3 (English) 詳細規範與計分指南。">
+    <meta property="og:image" content="https://global-robotics-games-taiwan.github.io/images/your-image-filename.png">
+
+    <!-- Schema.org Breadcrumbs & Article for SEO & AI Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "GRG Taiwan 首頁",
+          "item": "https://global-robotics-games-taiwan.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "競賽規則",
+          "item": "https://global-robotics-games-taiwan.github.io/#rules"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MR2 & MR3 (English)",
+          "item": "https://global-robotics-games-taiwan.github.io/rules/mr23_rules_en.html"
+        }
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
-            /* 覆蓋首頁的深色背景，確保獨立頁面好閱讀 */
             background-color: #f4f6f9;
         }
         body::before {
-            display: none !important; /* 隱藏深色漸層背景 */
+            display: none !important;
         }
         .rules-container {
             max-width: 900px;
             margin: 40px auto;
             padding: 40px;
             background: #ffffff;
-            color: #333333; /* 確保文字是深色 */
+            color: #333333;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -84,7 +124,6 @@
             background-color: #001f44;
         }
         
-        /* 列印與 PDF 輸出專用樣式 */
         @media print {
             body { 
                 background: #ffffff !important; 
@@ -100,7 +139,6 @@
             .no-print, .pdf-btn, .back-btn, nav, footer, .floating-group { 
                 display: none !important; 
             }
-            /* 避免表格與圖片被切斷 */
             table, img, tr, td, th { 
                 page-break-inside: avoid !important; 
             }
@@ -110,7 +148,6 @@
             p, li {
                 page-break-inside: avoid;
             }
-            /* 強制背景顏色與字體顏色列印 */
             * {
                 -webkit-print-color-adjust: exact !important;
                 color-adjust: exact !important;
@@ -127,22 +164,458 @@
             <a href="../index.html" class="back-btn">回首頁</a>
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
-        <div id="content">讀取規則中...</div>
+        <div id="content"><h1 id="2026-grg-mobile-robotics-ii--iii-mr2--mr3-rules---original-english-version">2026 GRG Mobile Robotics II &amp; III (MR2 &amp; MR3) Rules - Original English Version</h1>
+<blockquote>
+<p>[!IMPORTANT]<br>This is the exact verbatim original English rulebook as provided by the official Global Robotics Games.</p>
+</blockquote>
+<h2 id="1-introduction">1. INTRODUCTION</h2>
+<p><strong>Mobile Robotics 2-3 | Mission: Zero Hunger</strong></p>
+<p>This year’s Mobile Robotics II and III is inspired by UN Sustainable Development Goal (UN SDG) #2: Zero Hunger. This goal addresses the critical need to end hunger, achieve food security, improve nutrition, and promote sustainable agriculture.
+The world faces a pressing challenge to feed a growing population. Factors like limited arable land, climate change, and urbanization threaten traditional farming methods and access to nutritious food. To address this problem, new solutions are emerging. Urban and vertical farming are innovative solutions that use robotics and technology to produce food efficiently in small, controlled environments. By focusing on these modern farming techniques, we can explore how robotics can help build a more resilient and nourished future for all.</p>
+<p><em>The Sustainable Development Goal Report 2025</em></p>
+<p>Our competition encourages participants to apply robotics and engineering skills to tackle critical issues related to Zero Hunger. One possible area is Vertical Farming. We want teams to discover how robots&#39; computer systems are helping us grow food in harsh environments with as little resources needed. Each aspect of the challenge represents a real-world scenario where robots can make a meaningful difference.</p>
+<p><strong>The Six Key Pillars of Vertical Farming</strong></p>
+<ul>
+<li><strong>Resource Management:</strong> This function involves managing systems that regulate a farm&#39;s temperature, humidity, and airflow to maintain the precise conditions necessary for optimal plant health and growth.</li>
+<li><strong>Planting:</strong> This task requires the precise deployment of seeds or seedlings to ensure consistent, accurate placement and efficient cultivating of crops.</li>
+<li><strong>Nutrient Delivery:</strong> This involves automated systems dedicated to supplying water and nutrients to plants, simulating efficient irrigation and feeding processes.</li>
+<li><strong>Lighting:</strong> This function focuses on deploying and managing specialized lights essential for photosynthesis, ensuring plants receive the correct light spectrum and intensity.</li>
+<li><strong>Harvesting:</strong> This requires the careful removal of mature produce, demonstrating how automation can enhance efficiency and minimize damage to crops.</li>
+<li><strong>Monitoring and Data:</strong> This pillar encompasses the collection and organization of &quot;data&quot; modules, highlighting the importance of sensors and data analytics in maintaining a highly productive and healthy farm environment.</li>
+</ul>
+<p>Through these missions, we not only want teams to demonstrate their technical expertise but also gain valuable insight into the broader agricultural and food security impacts of their innovations. This competition is designed to empower young minds to be problem-solvers and changemakers. By aligning their robotics work with the vision of UN SDG #2: Zero Hunger, participants are encouraged to actively research and understand the challenges and opportunities within modern farming.</p>
+<p><strong>Research Topics</strong></p>
+<ul>
+<li><strong>Food Scarcity in Urban Areas:</strong> How can vertical farms provide fresh, local food to crowded cities?</li>
+<li><strong>Climate Resilience:</strong> What role does environmental control play in protecting crops from changing weather patterns?</li>
+<li><strong>Sustainable Resource Use:</strong> How do automated nutrient delivery and water recycling systems reduce the environmental footprint of agriculture?</li>
+</ul>
+<p>The technology you develop on the playfield can help create a more sustainable and nourished world. Use this competition as a launchpad to research how your innovations can make a tangible difference in global food security.</p>
+<hr>
+<h2 id="2-guide-to-reading-the-challenge-doc">2. Guide to reading the Challenge Doc</h2>
+<p><strong>QUICK START GUIDE</strong>
+<strong>Your Roadmap to the Global Robotics Games</strong>
+Follow these four simple steps to understand your mission document and prepare your robot for the challenge!</p>
+<p><strong>Step 1: Read the Introduction</strong>
+This gives you an outline of the situation in the world today based on the subject.</p>
+<p><strong>Step 2: Glance through the Game Field</strong>
+This is the playfield on which your robot will run. Visualize your routes as you look at the map!</p>
+<p><strong>Step 3: Understand the Missions</strong>
+As you go through the missions, refer back to the game field. Some missions are static, whereas some are movable mission props. Importantly, know the scores you get for each mission and understand the scoring criteria carefully.</p>
+<p><strong>Step 4: Read the Rules (Do’s and Don’ts)</strong>
+There are times when you can touch your robot, robot-equipment, and Construction Equipment, and times when you cannot. Understand them well to avoid penalties.</p>
+<p>That’s it!
+This was a simple guide to get you started in your Global Robotics Games journey.
+Have fun reading and coding!</p>
+<hr>
+<h2 id="3-game-field">3. Game Field</h2>
+<p><strong>SECTION 3: GAME FIELD</strong>
+<strong>Mobile Robotics 2-3 | Ages 10–16</strong></p>
+<p><strong>The Game Field: Your Vertical Farm</strong>
+The competition takes place on a large mat that represents a Vertical Farm. The playfield is where you will find all the elements needed to grow a successful farm:</p>
+<ul>
+<li><strong>Resources:</strong> Elements like water, nutrients, and lighting are represented by the Cubes (large and small) scattered across the mat.</li>
+<li><strong>Missions:</strong> The field is dotted with various locations where your robot must precisely build, stack, and place these Cubes to achieve mission goals.</li>
+</ul>
+<p><img src="../images/rules/MR23_Game_Field.png" alt="Game Field"></p>
+<h3 id="31-loading-zone">3.1 Loading Zone</h3>
+<p>The Loading Zone is where every team starts their robot-run.</p>
+<ul>
+<li>The Loading Zone is where each robot is inspected. (refer to 6.1: Pre Run)</li>
+<li>The Loading Zone is where you are allowed to touch your robot and robot-equipment during the match.</li>
+<li>You may choose to leave behind robot-equipment and parts in the Loading Zone during the robot run.</li>
+<li>The Loading Zone may be used as a place to hold on to any Small Cubes only.</li>
+</ul>
+<blockquote>
+<p>[!WARNING]
+<strong>⚠ IMPORTANT HANDLING RULES</strong></p>
+<ul>
+<li>Teams are not allowed to touch their robots, robot-equipment or any Cubes if it is fully or even partially out of the Loading Zone. They must remain as is and can only be moved by a robot running autonomously.</li>
+<li>The Run will stop if any robot or robot equipment is touched while it is fully or even partially out of the Loading Zone.</li>
+<li>Any cubes that are touched while fully or partially out of the Loading Zone will be confiscated.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="4-game-objects--positioning">4. Game Objects &amp; Positioning</h2>
+<p><strong>4. GAME OBJECTS &amp; POSITIONING</strong>
+<strong>Mobile Robotics 2-3 | Setup &amp; Identification</strong></p>
+<p>Before the start of the match, cubes of various sizes and colours are spread out on the playfield. The starting positions will be marked with an <strong>X in a square</strong>.</p>
+<p><img src="../images/rules/MR23_X_mark.png" alt="X mark"></p>
+<p><img src="../images/rules/MR23_inline_image__3_.png" alt="Game Objects &amp; Positioning"></p>
+<p><strong>Note:</strong> Carefully study the colour of the cubes. Some coloured Cubes have the same starting position, while other colours are randomized.</p>
+<p><strong>Colour Code</strong></p>
+<table>
+<thead>
+<tr>
+<th>Mission Category</th>
+<th>Large Cube (The Facility)</th>
+<th>Small Cube (The Resource)</th>
+<th>Real-World Meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Harvesting</strong></td>
+<td>White</td>
+<td>White</td>
+<td>Gathering fresh produce from the garden.</td>
+</tr>
+<tr>
+<td><strong>Planting</strong></td>
+<td>Green</td>
+<td>Orange</td>
+<td>Placing seeds into the soil to grow.</td>
+</tr>
+<tr>
+<td><strong>Nutrient Delivery</strong></td>
+<td>Blue</td>
+<td>Purple</td>
+<td>Feeding plants with water and vitamins.</td>
+</tr>
+<tr>
+<td><strong>Sorting</strong></td>
+<td>Pink</td>
+<td>Red</td>
+<td>Separating healthy food from leftovers.</td>
+</tr>
+<tr>
+<td><strong>Lighting Control</strong></td>
+<td>Yellow</td>
+<td>Yellow</td>
+<td>Managing energy for indoor vertical farms.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="5-robot-missions-and-scoring">5. Robot Missions and Scoring</h2>
+<p><strong>5. ROBOT MISSIONS AND SCORING</strong>
+For a better understanding, the missions will be explained in multiple sections.</p>
+<hr>
+<p><strong>Scoring for each mission will be:</strong>
+<strong>Final State (scoring is done when the Robot Attempt ends)</strong></p>
+<hr>
+<p>Your main objective in this competition is to use your robot arm to help manage the resources in the vertical farm. You achieve this by building stable, two-cube towers called <strong>Resource Management Stacks</strong>.</p>
+<h3 id="51-what-is-a-stack">5.1 What is a &quot;Stack&quot;?</h3>
+<p><strong>Rules for a Valid Stack:</strong></p>
+<ul>
+<li><strong>Two Cubes Required:</strong> A Stack must consist of exactly two Large Cubes.</li>
+<li><strong>Colour Match:</strong> The two Large Cubes must be the exact same colour to be a Valid Stack (e.g., a Yellow Large Cube on a Yellow Large Cube).</li>
+<li><strong>Direct Contact:</strong> The same-coloured Large Cubes must be resting in direct physical contact with each other.</li>
+<li><strong>Stable Placement:</strong> A Large Cube is successfully &#39;stacked&#39; only when it is resting solely on the Large Cube beneath it and is not touching the playfield.</li>
+<li><strong>No Robot Support:</strong> Neither the robot nor any robot equipment may be touching or supporting any part of the Large Cube once it is stacked.</li>
+</ul>
+<p><strong>Special Rule: Large Cube Pairs</strong></p>
+<ul>
+<li><strong>Original Location Rule:</strong> To earn points for a Stack, you must move only one of the two Large Cubes of that specific colour. The other corresponding Large Cube must remain in its original location to be counted as part of a Stack.<ul>
+<li><em>Example: If you move one Blue Large Cube out of a circle, the other Blue Large Cube for that pairing must stay in its starting location.</em></li>
+</ul>
+</li>
+</ul>
+<p><img src="../images/rules/MR23_inline_image__1_.png" alt="Stack Rules"></p>
+<p><strong>Invalid Stack</strong>
+An Invalid Stack is created when one Large Cube is placed on top of another Large Cube, but they are of different colours. You will earn less points for an Invalid Stack.
+<strong>Note on Manipulation:</strong> There are special rules in Section 6.3 regarding the manipulation of Large Cubes. You must read these rules!</p>
+<h3 id="52-enhancement-cubes">5.2 Enhancement Cubes</h3>
+<p>Enhancement Cubes are a way to make your existing ‘Vertical Farm’ more efficient and earn extra points beyond the basic Stack. They are small cubes added to the top of a valid Stack.
+Enhancement Cubes are the Small Cubes that are added to the top of a Valid Stack to earn Bonus Points and demonstrate a more efficient Vertical Farm.</p>
+<p><strong>Rules for Enhancement Cubes:</strong></p>
+<ul>
+<li><strong>Layer Definition:</strong> A Layer is defined as exactly 4 small cubes placed on top of a Valid Stack.</li>
+<li><strong>Maximum Layers:</strong> Since there are 8 small cubes of the same colour available for each Stack, a maximum of 2 Layers can be placed on a single Valid Stack.</li>
+<li><strong>Colour Coordination:</strong> The Small Cubes must correspond to the colour of the Valid Stack they are placed on (refer to the Colour Code table in Section 4).<ul>
+<li><em>Example: A Valid Stack of Large Green Cubes (Planting) requires four Small Orange Cubes on top to create an Enhanced Planting Stack</em></li>
+</ul>
+</li>
+</ul>
+<p><img src="../images/rules/MR23_inline_image.png" alt="Enhancement Cubes"></p>
+<p>The goal is to build proper same-coloured Stacks and to add Enhancement Stacks from the field and bring them together to create a well running Vertical Farm!</p>
+<h3 id="53-how-do-you-score-points">5.3 How Do You Score Points?</h3>
+<h4 id="531-points-for-the-stacked-cubes">5.3.1 Points for the Stacked Cubes</h4>
+<p>You earn points for every valid Stack built up.</p>
+<table>
+<thead>
+<tr>
+<th>Large Cube Stack</th>
+<th>Points gained</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>White</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Pink</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Invalid Stack</td>
+<td>20</td>
+</tr>
+</tbody></table>
+<h4 id="532-points-for-the-enhancement-cubes">5.3.2 Points for the Enhancement Cubes</h4>
+<p>Here are the points you can earn for Enhancement Cubes:</p>
+<table>
+<thead>
+<tr>
+<th>Small Cube layer</th>
+<th>Points gained per successful layer</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>White</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Orange</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Purple</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Mixed colour layer</td>
+<td>15</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="6-sub-category-game-rules">6. Sub-Category Game Rules</h2>
+<p><strong>6. SUB-CATEGORY GAME RULES</strong>
+<strong>Pre-Run, During the Run, and Post-Run Guidelines</strong>
+If there is any uncertainty during the robot attempt, the Referee makes the final decision. The Referee should decide in favour of the team if no clear decision is possible.
+The set of rules can be broken up into three sections. There are rules that the team must follow before the match begins (Pre-Run), rules to follow when the match has started and before the 2:00 minutes is up (During the Run), and rules to follow after the match has ended (Post-Run).</p>
+<h3 id="61-getting-ready-pre-run-rules">6.1 Getting Ready: Pre-Run Rules</h3>
+<p>Before the 2-minute match begins, we need to make sure your robot and equipment are ready for competition! This is called the Pre-Run check.</p>
+<ul>
+<li><strong>Size Check (The Robot Box):</strong> Your main Robot and all its attached pieces (robot-equipment) must fit completely inside a box that is 250mm x 250mm x 250mm. Referees will check this size before your run.</li>
+<li><strong>Starting Position:</strong> After the size check, your robot and all its equipment must be placed inside the Loading Zone. You can&#39;t make any changes to your robot after it passes the size inspection and before the game starts.</li>
+<li><strong>No Secret Parts:</strong> You are not allowed to hide or keep any robot parts or attachments in your hand or off the game field to be used later during the match. Everything you plan to use must start on the field.</li>
+<li><strong>After robot’s size inspection:</strong> Teams are not allowed to modify the robot’s assembly in any way. Teams are not allowed to overwrite the pre-existing codes.</li>
+<li><strong>LEGO® Only:</strong> The referee will inspect everything to make sure you are only using official LEGO® bricks and parts.</li>
+<li><strong>Turn Off the Signal:</strong> All wireless features like Bluetooth and Wi-Fi on your robot-hub must be completely turned off.</li>
+</ul>
+<h3 id="62-the-match-begins">6.2 The match begins</h3>
+<ul>
+<li>Time begins when the referee gives the signal to start.</li>
+<li>The referee will give a command: “G. R. G. Go!”.</li>
+<li>Each robot match has a maximum of 2 minutes (120 seconds)</li>
+<li><strong>Scoring End:</strong> The referee will not consider any points gained by the robot after the 120-second timer has elapsed</li>
+</ul>
+<h3 id="63-what-you-can-and-cant-do-during-the-match">6.3 What You Can and Can&#39;t Do During the Match</h3>
+<p>There are more rules, read them carefully:</p>
+<p><strong>6.3.1 Allowed Actions for robot and robot equipment:</strong>
+You are ONLY allowed to interact with the robot or robot-equipment if the robot is fully stopped and completely within the Loading Zone.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Touch and Reposition</strong></td>
+<td>You may touch and move your robot to any new spot inside the Loading Zone.</td>
+</tr>
+<tr>
+<td><strong>Switch Programs</strong></td>
+<td>You may rerun the current program or select a different program on the robot&#39;s hub for the next run.</td>
+</tr>
+<tr>
+<td><strong>Handle Parts</strong></td>
+<td>You may modify attachments (robot-equipment) and Small Cubes ONLY by hand.</td>
+</tr>
+</tbody></table>
+<p><strong>6.3.2 Disallowed Actions (Any Time During the Match)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Restriction</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Touch a Moving Robot</strong></td>
+<td>You cannot touch your robot when it is moving on the playfield outside of the Loading Zone.<br><strong>Warning:</strong> The referee will immediately stop the match and record any points gained up to that moment.</td>
+</tr>
+<tr>
+<td><strong>Change the Code</strong></td>
+<td>You cannot connect the robot&#39;s hub to a computing device to reprogram it or enter new data while the 2-minute timer is running.</td>
+</tr>
+<tr>
+<td><strong>Touch Objects Outside Loading Zone</strong></td>
+<td>You may only touch your robot, robot equipment, or any cubes when they are completely inside the Loading Zone.<br>If any part of the robot, equipment, or cubes is outside the Loading Zone, you are not allowed to touch or adjust them, even if the robot has stopped.<br>This rule still applies if the robot accidentally pushes any object out of the Loading Zone.</td>
+</tr>
+</tbody></table>
+<p><strong>6.3.3 Rules for Cubes</strong></p>
+<table>
+<thead>
+<tr>
+<th>Cube Type</th>
+<th>Allowed Action (Any Time)</th>
+<th>Disallowed Action (Any Time)</th>
+<th>Special Manipulation Rule</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Small Cubes</strong></td>
+<td>Can be transported anywhere on the playfield, including into the Loading Zone.</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><strong>Large Cubes</strong></td>
+<td>Can be transported to any place on the playfield, except the Loading Zone (e.g., from one circle to another).</td>
+<td>Cannot be brought into the Loading Zone.<br><strong>Penalty:</strong> They will be confiscated by the Referee.</td>
+<td>Manipulation is only allowed when every part of the robot touching the playfield is fully within the Circle and the robot has come to a complete stop.</td>
+</tr>
+</tbody></table>
+<h3 id="64-how-the-match-ends-and-scoring">6.4 How the Match Ends and Scoring</h3>
+<p>Your robot&#39;s attempt can end in a few different ways. Once the match ends, the referee will calculate your final score.</p>
+<p><strong>When the Match Stops</strong>
+A robot attempt will end if:</p>
+<ul>
+<li><strong>Time Runs Out:</strong> The 2-minute (120 seconds) clock hits zero.</li>
+<li><strong>Off the Table:</strong> Your robot has completely driven off the game table.</li>
+<li><strong>Breaking Rules:</strong> Your robot or team violates the rules or any regulations</li>
+<li><strong>Shout &quot;STOP&quot;:</strong> A team member shouts &quot;STOP”, and the robot completely stops moving. But remember, If the robot is still moving after you call &quot;STOP,&quot; the attempt will only end once the robot stops on its own or is stopped by the team. Referees will only stop the robot for you if you give them permission.</li>
+</ul>
+<p><strong>Finalizing the Score</strong></p>
+<ul>
+<li><strong>Scoring Process:</strong> After the robot run is over, the referee will score the attempt.</li>
+<li><strong>Sign-Off:</strong> Teams must sign the scoring sheet (paper or digital) to agree with the score. Once you sign, no more changes can be made to the score. So read the scores given by the referees properly!</li>
+<li><strong>Disputes:</strong> If a team refuses to sign the score after a reasonable amount of time, the judge may disqualify the team for that round.</li>
+<li><strong>Coach and Proof:</strong> Coaches are not allowed to join discussions with the referees about the scoring. Sorry Coaches. Video or photo proof of your run will also not be accepted.</li>
+<li><strong>Empty Score Time:</strong> If a team finishes a run without scoring any positive points, the time for that run is automatically set to 120 seconds.</li>
+<li><strong>Ranking:</strong> If teams have the same total points, their final ranking will be decided by the time recorded for their attempt.</li>
+</ul>
+<hr>
+<h2 id="7-scoring">7. Scoring</h2>
+<p><strong>FINAL SCORING SHEET</strong>
+<strong>Mobile Robotics 2-3 | Official Robot Game Score</strong></p>
+<table>
+<thead>
+<tr>
+<th>Scoring Category</th>
+<th>Points per Item (P)</th>
+<th>Quantity (Q)</th>
+<th>Points Earned (P x Q)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>A. RESOURCE MANAGEMENT STACKS (Large Cubes)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>White Cube (Harvesting)</td>
+<td>70</td>
+<td># of Stacks: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Green Cube (Planting)</td>
+<td>60</td>
+<td># of Stacks: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Blue Cube (Nutrient Delivery)</td>
+<td>50</td>
+<td># of Stacks: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Pink Cube (Sorting)</td>
+<td>40</td>
+<td># of Stacks: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Yellow Cube (Lighting Control)</td>
+<td>30</td>
+<td># of Stacks: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Invalid Stack (Any two different colors)</td>
+<td>20</td>
+<td># of Stacks: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>B. ENHANCEMENT CUBES (Small Cube Layers)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>White Small Cubes</td>
+<td>50</td>
+<td># of Layers: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Orange Small Cubes</td>
+<td>40</td>
+<td># of Layers: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Purple Small Cubes</td>
+<td>30</td>
+<td># of Layers: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Red Small Cubes</td>
+<td>20</td>
+<td># of Layers: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Yellow Small Cubes</td>
+<td>20</td>
+<td># of Layers: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td>Any 4 Small Cubes on a Valid Stack</td>
+<td>15</td>
+<td># of Layers: ____________</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>GRAND TOTAL SCORE:</strong></td>
+<td></td>
+<td></td>
+<td>_________________</td>
+</tr>
+</tbody></table>
+<h2 id="8-scoring-interpretations">8. Scoring Interpretations</h2>
+<p>Will be added in future.</p>
+</div>
         <div class="no-print" style="margin-top: 40px; text-align: center;">
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
     </div>
-
-    <script>
-        fetch('MR2_3_Rules_EN_2026-06-01.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
-            })
-            .catch(err => {
-                document.getElementById('content').innerHTML = '無法載入規則文件。';
-                console.error(err);
-            });
-    </script>
 </body>
 </html>

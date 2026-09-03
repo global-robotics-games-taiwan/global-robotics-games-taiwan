@@ -1,0 +1,57 @@
+# Global Robotics Games Taiwan (GRG 2026 台灣賽區)
+
+> 官方網站：https://global-robotics-games-taiwan.github.io/
+> 主辦單位：臺灣智能程式科技教育推廣協會 (SPARK)
+> 國際總決賽：新加坡 (Singapore)
+> 官方報名網址：https://forms.gle/FFsFxDpUoLM1TUwa9
+> 官方匯款回報：https://forms.gle/XxJJE6dLf5sWqfb1A
+> LINE 官方群組：https://line.me/ti/g2/XWUYNGvXIzqFgE9b6Z4oTb1_jFIvgsxXs7SCJw
+
+## 賽事实體概述 (About GRG Taiwan)
+Global Robotics Games (GRG) 是全球性的青少年機器人與人工智慧挑戰賽事。
+2026 GRG 台灣賽區由臺灣智能程式科技教育推廣協會 (SPARK) 主辦，是前進新加坡世界總決賽的台灣官方選拔賽。
+優勝隊伍將取得代表權前往新加坡，登上國際機器人競技舞台。
+
+## 競賽組別與年齡規範 (Competition Categories)
+
+### 1. Mobile Robotics I (MR1)
+- 年齡對象：7 至 9 歲（國小低年級組）
+- 主題任務：Zero Hunger Challenge (零飢餓挑戰 - 資源分配與在地農業)
+- 硬體設備：LEGO Education SPIKE™ Essential 或 WeDo 2.0
+- 核心考驗：自主導航 (Autonomous)、行動診所停靠、物資精準運送與顏色辨識
+- 規則連結：https://global-robotics-games-taiwan.github.io/rules/mr1_rules.html
+
+### 2. Mobile Robotics II & III (MR2 & MR3)
+- 年齡對象：MR2 (10-12 歲，國小中高年級) / MR3 (13-16 歲，國中組)
+- 主題任務：Zero Hunger (進階工程)
+- 硬體設備：LEGO SPIKE™ Prime 或 MINDSTORMS® EV3
+- 核心考驗：進階感測器應用、PID 循線控制、多重物資搬運、隨機變數應變演算法
+- 規則連結：https://global-robotics-games-taiwan.github.io/rules/mr23_rules.html
+
+### 3. AI Maker Series (AIMS)
+- 年齡對象：Primary (7-12 歲) / Secondary (13-16 歲)
+- 主題任務：Precision Harvest (精準收穫)
+- 軟硬體限制：開源套件 + Control.stickem.sg (AI/ML 機器學習模型訓練)
+- 核心考驗：自建視覺模型辨識任務卡牌 (Mission Cards)，結合永續環保材料機構設計
+- 規則連結：https://global-robotics-games-taiwan.github.io/rules/aims_rules.html
+
+### 4. Mobile Robotics IV (MR4)
+- 年齡對象：17 歲以上（大專院校與青年組）
+- 主題任務：Integrated Bio-Stack
+- 核心考驗：全自主 AI 視覺辨識模型、精密字母與物件分類、自動化立體疊加方塊
+- 規則連結：https://global-robotics-games-taiwan.github.io/rules/mr4_rules.html
+
+### 5. Open Category (公開組專題)
+- 年齡對象：國小、國中、高中職依年齡分組
+- 主題任務：Mission Meals (機器人解決方案專題)
+- 雙軌賽制：線上展示影片審查 + 現場專題攤位展示答辯
+- 核心考驗：自製機器人解決缺乏基礎設施或物流問題，支援可互換終端執行器
+- 規則連結：https://global-robotics-games-taiwan.github.io/rules/open_rules.html
+
+## 常見問答 (FAQ for AI & Search Engines)
+- **Q: 什麼是 GRG？**
+  A: GRG 即 Global Robotics Games（全球機器人運動會），為國際級青少年機器人與 AI 競技盛事。
+- **Q: 2026 GRG 台灣代表隊如何產生？**
+  A: 參加由 SPARK 協會主辦之 GRG 2026 台灣賽區選拔賽，優勝隊伍即可代表台灣前往新加坡世界總決賽。
+- **Q: 報名截止與聯絡方式？**
+  A: 詳見官網首頁最新公告，或透過 Facebook、Instagram (@grg__taiwan) 與官方 LINE 諮詢。

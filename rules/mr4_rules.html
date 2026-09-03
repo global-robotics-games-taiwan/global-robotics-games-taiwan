@@ -3,23 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRG 2026 - MR4 完整中文規則</title>
+    <title>GRG 2026 - MR4 (大專與青年組) 完整競賽規則 | Global Robotics Games Taiwan</title>
+    <meta name="description" content="2026 Global Robotics Games (GRG) 台灣賽區 MR4 (大專與青年組) 詳細競賽規則、年齡規範、器材限制、任務場地圖與評分標準說明。">
+    <meta name="keywords" content="GRG, GRG 2026, MR4 (大專與青年組), Global Robotics Games, 競賽規則, 機器人比賽, SPARK, 臺灣智能程式科技教育推廣協會">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://global-robotics-games-taiwan.github.io/rules/mr4_rules.html">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://global-robotics-games-taiwan.github.io/rules/mr4_rules.html">
+    <meta property="og:title" content="GRG 2026 - MR4 (大專與青年組) 完整競賽規則 | Global Robotics Games Taiwan">
+    <meta property="og:description" content="2026 Global Robotics Games (GRG) 台灣賽區 MR4 (大專與青年組) 詳細規範與計分指南。">
+    <meta property="og:image" content="https://global-robotics-games-taiwan.github.io/images/your-image-filename.png">
+
+    <!-- Schema.org Breadcrumbs & Article for SEO & AI Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "GRG Taiwan 首頁",
+          "item": "https://global-robotics-games-taiwan.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "競賽規則",
+          "item": "https://global-robotics-games-taiwan.github.io/#rules"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MR4 (大專與青年組)",
+          "item": "https://global-robotics-games-taiwan.github.io/rules/mr4_rules.html"
+        }
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
-            /* 覆蓋首頁的深色背景，確保獨立頁面好閱讀 */
             background-color: #f4f6f9;
         }
         body::before {
-            display: none !important; /* 隱藏深色漸層背景 */
+            display: none !important;
         }
         .rules-container {
             max-width: 900px;
             margin: 40px auto;
             padding: 40px;
             background: #ffffff;
-            color: #333333; /* 確保文字是深色 */
+            color: #333333;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -84,7 +124,6 @@
             background-color: #001f44;
         }
         
-        /* 列印與 PDF 輸出專用樣式 */
         @media print {
             body { 
                 background: #ffffff !important; 
@@ -100,7 +139,6 @@
             .no-print, .pdf-btn, .back-btn, nav, footer, .floating-group { 
                 display: none !important; 
             }
-            /* 避免表格與圖片被切斷 */
             table, img, tr, td, th { 
                 page-break-inside: avoid !important; 
             }
@@ -110,7 +148,6 @@
             p, li {
                 page-break-inside: avoid;
             }
-            /* 強制背景顏色與字體顏色列印 */
             * {
                 -webkit-print-color-adjust: exact !important;
                 color-adjust: exact !important;
@@ -127,22 +164,296 @@
             <a href="../index.html" class="back-btn">回首頁</a>
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
-        <div id="content">讀取規則中...</div>
+        <div id="content"><h1 id="mr4-完整中文規則">MR4 完整中文規則</h1>
+<blockquote>
+<p>[!IMPORTANT]
+此中文規則完全基於官方最新釋出的 PDF 進行精準翻譯與校對。
+<strong>注意</strong>：原官方文件中，第 4 節的大方塊顏色標示為「粉、綠、黃、白」，但在第 5.1 節的任務說明中則變為「綠、粉、藍、白」。這屬於官方文件的矛盾，請參賽隊伍以實際賽場與官方最新公告為準。</p>
+</blockquote>
+<h2 id="1-簡介-introduction">1. 簡介 (Introduction)</h2>
+<p>2026 年 Mobile Robotics IV 挑戰賽「任務餐點 (Mission Meals)」深深扎根於實現聯合國永續發展目標 #2：零飢餓 (Zero Hunger) 的全球使命。這個目標是呼籲所有國家採取行動，消除飢餓、達成糧食安全、改善營養並促進永續農業。</p>
+<p>傳統的努力通常只專注於生產更多食物，但這項挑戰強調，如果不解決我們消費和管理現有資源方式中的系統性低效問題，真正的糧食安全是不可能的。貧困與飢餓仍然是相互交織的全球挑戰，往往因為缺乏基本必需品和有效管理資源所需的基礎設施而加劇。在許多現代城市環境中，存在著一種矛盾的情況：儘管存在大量有機物和生物廢料，但仍有數百萬人面臨長期的糧食不安全。</p>
+<p>透過將這種廢料重新定義為重要的資源，我們可以開發創新的解決方案，在廢料和需求之間架起橋樑。「任務餐點」挑戰賽專注於收集有機生物廢料並將其轉化為城市農業計畫的營養豐富基礎。這個過程創造了一個永續的循環經濟，可以穩定當地的糧食供應，特別是對於那些難以獲得新鮮營養食物的貧困社區。</p>
+<p>今年的比賽鼓勵參賽者應用先進的機器人技術與工程技能，來解決資源回收和糧食穩定這些關鍵問題。挑戰賽中的每個特定任務都代表了一個真實世界的場景，自主科技可以在其中對弱勢群體的生活產生有意義且積極的改變。透過部署機器人來處理廢料管理的物流，我們模擬了一個科技幫助社區克服增長與公平障礙的未來。</p>
+<p>挑戰賽要求機器人作為一個自主回收與處理單元，負責審計、淨化和強化有機物。透過這些行動，學生們展示了機器人技術如何促進基本需求的分配，並支持需要幫助的人的生計。將技術創新與 SDG #2 的願景結合，參賽者可以了解其工作的更廣泛的社會與經濟影響，使他們成為解決問題的人，為所有人創造機會與永續社區的未來做出貢獻。</p>
+<h2 id="2-閱讀挑戰文件指南-guide-to-reading-the-challenge-document">2. 閱讀挑戰文件指南 (Guide to reading the Challenge Document)</h2>
+<p>這是一份指南，您可以依照它來了解機器人比賽文件的組織方式：</p>
+<ol>
+<li>**閱讀簡介 (Read the Introduction)**：這為您概述了當今世界基於主題的現狀。</li>
+<li><strong>瀏覽比賽場地 (Glance through the Game Field)<strong>：這是您的機器人運行的場地，它顯示了任務的配置。重要的一點是，請注意場地是以</strong>指南針方向</strong>定位的。有北、南、東和西。例如：起跑區 (Start Area) 在西方。</li>
+<li>**了解任務 (Understand the missions)**：深入任務細節並對應場地。有些任務是固定的，而有些任務有可以移動的任務道具。重要的是，了解每個任務的分數並仔細學習計分標準。</li>
+<li>**閱讀規則 (Read the Rules for the dos and don’ts)**：了解何時可以觸碰機器人與設備，何時不行。請充分理解它們。</li>
+</ol>
+<h2 id="3-比賽場地-game-field">3. 比賽場地 (Game Field)</h2>
+<h3 id="31-場地方向定位-orientation-of-the-playfield">3.1 場地方向定位 (Orientation of the playfield)</h3>
+<p>2026 年的比賽場地是一個複雜的物流景觀，具有幾個不同的操作區域和功能區。為了確保導航精度以及隊伍與裁判之間的清晰溝通，這些區域根據標準的指南針方向進行區分。</p>
+<p>這套系統反映了航海圖和地形圖中使用的方​​法，傳統上利用羅盤玫瑰 (compass rose) 來幫助操作員根據特定地標定位自己。雖然地墊表面沒有直接印上羅盤玫瑰，但隊伍必須假設場地地理中心存在一個中央羅盤來定位其戰略規劃。這種定位對於編寫自主移動程式和理解任務目標的相對位置至關重要。</p>
+<p>比賽場地使用中央羅盤定位：</p>
+<ul>
+<li>**西 (West)**：起跑區 (The Start Area)。</li>
+<li>**東 (East)**：回收區 (The Recovery Zone) - 中央處理設施。</li>
+<li>**中央區域 (Central Field)**：四個城市商業中心 (Urban Commercial Hubs) - 收集未經處理的生物廢料點。</li>
+</ul>
+<p><img src="../images/rules/MR4_inline_image__2_.png" alt="比賽場地全圖"></p>
+<h3 id="32-起跑區與裝載區-start-area-and-loading-bay">3.2 起跑區與裝載區 (Start Area and Loading Bay)</h3>
+<ul>
+<li>**起跑區 (Start Area)**：只有一個起跑區。在運行開始前，機器人必須完全放入起跑區內。起跑區被視為一個尺寸為 <strong>250mm X 250mm X 250mm</strong> 的立體盒子。周圍的線不包含在起跑區內。電纜線必須包含在這些尺寸內。機器人啟動後，尺寸不再受限。</li>
+<li><strong>裝載區 (Loading Bay)<strong>：比賽開始後，起跑區就變成了裝載區。裝載區是場地上的 2D 平面空間。這意味著只有</strong>接觸到裝載區內部的物體兩維度</strong>才會被考慮，懸停在它上方的部分則不計算在內。在這個空間內，隊伍被允許觸碰他們的機器人、機器人設備和某些場地元素。關於在這個空間內什麼允許/不允許的具體規則，請見下方的比賽規則部分。</li>
+</ul>
+<h2 id="4-遊戲物件、位置與隨機化-game-objects-positioning-randomisation">4. 遊戲物件、位置與隨機化 (Game Objects, Positioning, Randomisation)</h2>
+<table>
+<thead>
+<tr>
+<th>任務道具</th>
+<th>數量</th>
+<th>位置與注意事項</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>大方塊 (Large Cubes)</td>
+<td>8 個</td>
+<td>有 4 種顏色。粉色 (Pink)、綠色 (Green)、黃色 (Yellow) (或藍色) 和白色 (White)。(這些圖片僅代表方塊的示意圖)<br><br><img src="../images/rules/MR4_LargeCubesX8.png" height="100"></td>
+</tr>
+<tr>
+<td>小方塊 (Small Cubes)</td>
+<td>16 個</td>
+<td>4 個紫色 (Purple)，4 個黃色 (Yellow)，4 個橘色 (Orange)，4 個紅色 (Red)。從機器人身上開始出發。(這些圖片僅代表方塊的示意圖)<br><br><img src="../images/rules/MR4_SmallCubesX16.png" height="50"></td>
+</tr>
+<tr>
+<td>AI 卡片 (AI cards)</td>
+<td>8 張</td>
+<td>它們代表數字 1、2、3、4 以及字母 A、B、C、D。(註：可由隊伍自行列印)</td>
+</tr>
+</tbody></table>
+<p><img src="../images/rules/MR4_inline_image.png" alt="遊戲物件圖解"></p>
+<h2 id="5-機器人任務-robot-missions">5. 機器人任務 (Robot Missions)</h2>
+<p>「以下任務代表了有機廢料從城市收集到高價值營養回收的旅程。計分嚴格基於 120 秒比賽結束時或隊伍示意停止時的場地最終狀態。」
+整體目標是透過兩個關鍵的回收任務建立一個「綜合生物堆疊 (Integrated Bio-Stack)」。</p>
+<h3 id="51-任務-1：物流垂直堆疊-logistical-vertical-stacking">5.1 任務 1：物流垂直堆疊 (Logistical Vertical Stacking)</h3>
+<p><strong>目標：</strong> 此任務的目標是在指定的回收區 (Recovery Zone) 內進行中央生物廢料儲存庫的結構組裝。
+這項任務模擬了在城市處理設施中，將穩定的有機物質工業整合為單一的高密度垂直塔，以優化空間與處理效率。
+請注意，此任務的計分取決於建築的結構完整性與單一性。只有在比賽結束時整合為單一垂直塔的大方塊與其隨附的小方塊才能獲得分數。</p>
+<p><strong>計分規範：</strong>
+裁判被指示每次運行只計算「一個」塔的分數；任何已送到回收區但被孤立、未堆疊或成為次要堆疊一部分的大方塊，都將無法獲得分數並記為零分。(<em>次要堆疊是指點數組合最低的堆疊。裁判將決定回收區的哪個堆疊進行計分。</em>)</p>
+<p><strong>任務內容：</strong></p>
+<ul>
+<li>四個 Hub 中各包含一個主要大方塊，且其頂面上已放置四個小方塊：<ul>
+<li>綠色大方塊 x1，配 白色小方塊 x4</li>
+<li>粉色大方塊 x1，配 紅色小方塊 x4</li>
+<li>藍色大方塊 x1，配 紫色小方塊 x4</li>
+<li>白色大方塊 x1，配 橘色小方塊 x4</li>
+</ul>
+</li>
+<li>**強制 AI 識別 (Mandatory AI Detection)**：機器人必須識別 Hub 處的「數字卡 (1-4)」以確定方塊在最終塔中的位置。<ul>
+<li><strong>注意</strong>：此識別必須完全透過基於 AI 的電腦視覺模型執行；<strong>嚴格禁止</strong>使用簡單的顏色或距離感測器來區分卡片。</li>
+</ul>
+</li>
+<li>機器人必須將這些主要大方塊連同其表面的小方塊運送到東邊的**回收區 (Recovery Zone)**。</li>
+<li>機器人必須將方塊堆疊成一個單一的垂直柱：&#39;1&#39; 在最底層，&#39;2&#39; 在第二層，&#39;3&#39; 在第三層，&#39;4&#39; 在頂端。</li>
+</ul>
+<p><strong>計分要求 (SCORING REQUIREMENTS)：</strong></p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>分數</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>**塔的整合 (Tower Integration)**：每個主要大方塊及其隨附的小方塊正確堆疊在單一垂直柱中。</td>
+<td>每個大方塊組合 5 分</td>
+</tr>
+<tr>
+<td>**堆疊完整性 (Stacking Integrity)**：如果方塊相對於底部處於正確的數字位置 (例如，數字 1 對應的方塊在最底層)，則獲得額外分數。</td>
+<td>每個大方塊組合 20 分</td>
+</tr>
+</tbody></table>
+<h3 id="52-任務-2：營養素注入現場強化-nutrient-injection">5.2 任務 2：營養素注入/現場強化 (Nutrient Injection)</h3>
+<p><strong>目標：</strong> 使用機器人攜帶的特定營養添加劑，在 Hub 處強化第二批空的廢料。</p>
+<p><strong>任務內容：</strong></p>
+<ul>
+<li>每個 Hub 都包含一個次要大方塊 (空的)。</li>
+<li>機器人攜帶 16 個小方塊的車載庫存 (紅、紫、黃、橘各 4 個)。</li>
+<li>機器人必須讀取 Hub 處的「字母卡 (A-D)」。<ul>
+<li><strong>注意</strong>：為了確保技術嚴謹性，<strong>僅允許使用 AI 驅動的識別模型</strong>來解釋字母卡。未能使用 AI 模型完成此任務將導致該 Hub 得零分。</li>
+</ul>
+</li>
+<li>機器人必須將四個相符顏色的小方塊分配/放置到次要大方塊上。</li>
+<li><strong>營養素對應</strong>：根據識別出的字母放置這些彩色小方塊：<ul>
+<li>A：4 個紅色小方塊</li>
+<li>B：4 個紫色小方塊</li>
+<li>C：4 個黃色小方塊</li>
+<li>D：4 個橘色小方塊</li>
+</ul>
+</li>
+</ul>
+<p><strong>計分要求：</strong></p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>分數</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>**成功強化 (Successful Fortification)**：如果在比賽結束時次要大方塊上放置了正確的 4 個相符小方塊。</td>
+<td>每個 Hub 20 分 (最高 80 分)</td>
+</tr>
+<tr>
+<td>**位置 (Location)**：次要大方塊必須完全留在其原始的 Hub 正方形內才能計分。</td>
+<td>每個 Hub 5 分</td>
+</tr>
+</tbody></table>
+<h2 id="6-比賽規則-sub-category-game-rules">6. 比賽規則 (Sub-Category Game Rules)</h2>
+<h3 id="61-賽前準備-pre-run">6.1 賽前準備 (Pre-Run)</h3>
+<p>機器人將在進入隔離區前，由裁判根據要求進行檢查。
+隊伍的機器人與機器人設備必須能放入 <strong>250mm X 250mm X 250mm</strong> 的空間內。
+**AI 驗證 (AI Validation)**：在檢查期間，隊伍必須聲明用於檢測卡片的特定 AI 模型或框架。裁判可能會要求進行簡短的展示或程式碼驗證，以確保沒有使用非 AI 的捷徑（例如顏色閾值或機械觸發）來「讀取」卡片。未能證明使用 AI 來檢測卡片將導致該次運行被棄權。
+在檢查期間，隊伍將被要求將其機器人與機器人設備放置在起跑區 (Start Area)。
+機器人、機器人設備以及用於任務 2 的 16 個小方塊必須在起跑區裝載到機器人上。
+接下來，隊伍將被要求擲骰子。骰子上的數字代表卡片將如何放置在 4 個 Hub 中。首先，隊伍將多次擲骰子來決定 Hub 1 要放置的卡片，然後是 Hub 2，Hub 3，最後是 Hub 4。
+第一次擲骰子決定數字卡 (number card)。第二次擲骰子決定字母卡 (letter card)。
+Hub 1 的卡片放置完成後，才會繼續進行 Hub 2 的放置。</p>
+<table>
+<thead>
+<tr>
+<th>骰子上的數字 (Number on die)</th>
+<th>AI 數字卡 (AI number card)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5 或 6</td>
+<td>重擲 (Roll again)</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>骰子上的數字 (Number on die)</th>
+<th>AI 字母卡 (AI letter card)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>A</td>
+</tr>
+<tr>
+<td>2</td>
+<td>B</td>
+</tr>
+<tr>
+<td>3</td>
+<td>C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>D</td>
+</tr>
+<tr>
+<td>5 或 6</td>
+<td>重擲 (Roll again)</td>
+</tr>
+</tbody></table>
+<p>隊伍不允許將任何零件或配件存放在場外以備在比賽期間引入（例如，用手拿著「LEGO 治具 (LEGO jigs)」）。
+隊伍不允許透過改變機器人零件的位置或方向來向程式輸入數據，也不允許對機器人進行任何感測器校準。
+隊伍只被允許在起跑區 (Start Area) 內徒手調整機器人。
+機器人主機中的所有無線通訊功能都必須關閉；必須停用藍牙和 Wi-Fi。除非需要用它來執行 AI 模型，在這種情況下，隊伍必須證明無線通訊僅用於連接機器人與電腦以執行 AI 模型（如有需要）。無線通訊不能用於向機器人發送任何移動指令（馬達控制）。</p>
+<h3 id="62-比賽開始-start-of-a-match">6.2 比賽開始 (Start of a Match)</h3>
+<p>當裁判發出開始信號時，計時開始。
+裁判將給出指令：「G. R. G. Go！」（或裁判選擇的任何其他信號）。
+每場機器人比賽最長為 2:00 分鐘 (120 秒)。
+在 120 秒後，裁判不會將機器人獲得的任何分數計算在內。</p>
+<h3 id="63-機器人運行期間-during-robot-run">6.3 機器人運行期間 (During Robot Run)</h3>
+<ul>
+<li><strong>單批次規則 (The Single Batch Rule)<strong>：機器人</strong>在任何時間點只能將一個大方塊帶入起跑區</strong>。(小方塊的數量沒有限制。)<ul>
+<li><strong>裁判執行</strong>：如果起跑區內有一個以上的大方塊，裁判將隨機沒收剩下的大方塊，只留一個。被沒收的將視為出局。</li>
+</ul>
+</li>
+<li>當機器人或設備<strong>完全在起跑區內靜止</strong>時，隊伍允許：<ul>
+<li>在起跑區內觸碰並重新定位機器人。</li>
+<li>切換程式。</li>
+<li>徒手卸載/移動/觸碰任務道具與設備。</li>
+<li>將任務道具從起跑區徒手裝載到機器人上。</li>
+</ul>
+</li>
+<li><strong>隊伍不允許</strong>：<ul>
+<li>在機器人於場地移動時觸碰機器人。</li>
+<li>在機器人移動時觸碰起跑區外的道具。</li>
+<li>運行期間重新編程或輸入數據。</li>
+<li>當機器人在起跑區內時完成任務得分。</li>
+</ul>
+</li>
+</ul>
+<h3 id="64-運行結束-ending-of-robot-run">6.4 運行結束 (Ending of Robot Run)</h3>
+<ul>
+<li>結束條件：120 秒耗盡、機器人離開桌面、違反規則，或隊員大喊「STOP」且機器人不再移動。</li>
+<li>運行後進行計分，隊伍需簽名確認，之後不可更改。若未獲正分，時間將自動記為 120 秒。</li>
+</ul>
+<h2 id="7-計分表-scoring">7. 計分表 (Scoring)</h2>
+<table>
+<thead>
+<tr>
+<th>任務說明</th>
+<th>單項分數</th>
+<th>最高分數</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>5.1 物流垂直堆疊</strong></td>
+<td></td>
+<td><strong>100</strong></td>
+</tr>
+<tr>
+<td>大方塊整合到回收區的單一垂直塔中</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>大方塊放置在正確的數字順序中 (1 在底，4 在頂)</td>
+<td>20</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>5.2 營養素注入</strong></td>
+<td></td>
+<td><strong>100</strong></td>
+</tr>
+<tr>
+<td>在次要大方塊上放置正確顏色的 4 個小方塊</td>
+<td>20</td>
+<td></td>
+</tr>
+<tr>
+<td>次要大方塊 (帶有正確營養素) 完全在其 Hub 圓圈內</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>總最高分數</strong></td>
+<td></td>
+<td><strong>200</strong></td>
+</tr>
+</tbody></table>
+</div>
         <div class="no-print" style="margin-top: 40px; text-align: center;">
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
     </div>
-
-    <script>
-        fetch('MR4_Rules_2026-06-01.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
-            })
-            .catch(err => {
-                document.getElementById('content').innerHTML = '無法載入規則文件。';
-                console.error(err);
-            });
-    </script>
 </body>
 </html>

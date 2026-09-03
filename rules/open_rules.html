@@ -3,23 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRG 2026 - Open Category (公開組) 完整中文規則</title>
+    <title>GRG 2026 - Open Category (公開組專題) 完整競賽規則 | Global Robotics Games Taiwan</title>
+    <meta name="description" content="2026 Global Robotics Games (GRG) 台灣賽區 Open Category (公開組專題) 詳細競賽規則、年齡規範、器材限制、任務場地圖與評分標準說明。">
+    <meta name="keywords" content="GRG, GRG 2026, Open Category (公開組專題), Global Robotics Games, 競賽規則, 機器人比賽, SPARK, 臺灣智能程式科技教育推廣協會">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://global-robotics-games-taiwan.github.io/rules/open_rules.html">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://global-robotics-games-taiwan.github.io/rules/open_rules.html">
+    <meta property="og:title" content="GRG 2026 - Open Category (公開組專題) 完整競賽規則 | Global Robotics Games Taiwan">
+    <meta property="og:description" content="2026 Global Robotics Games (GRG) 台灣賽區 Open Category (公開組專題) 詳細規範與計分指南。">
+    <meta property="og:image" content="https://global-robotics-games-taiwan.github.io/images/your-image-filename.png">
+
+    <!-- Schema.org Breadcrumbs & Article for SEO & AI Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "GRG Taiwan 首頁",
+          "item": "https://global-robotics-games-taiwan.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "競賽規則",
+          "item": "https://global-robotics-games-taiwan.github.io/#rules"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Open Category (公開組專題)",
+          "item": "https://global-robotics-games-taiwan.github.io/rules/open_rules.html"
+        }
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
-            /* 覆蓋首頁的深色背景，確保獨立頁面好閱讀 */
             background-color: #f4f6f9;
         }
         body::before {
-            display: none !important; /* 隱藏深色漸層背景 */
+            display: none !important;
         }
         .rules-container {
             max-width: 900px;
             margin: 40px auto;
             padding: 40px;
             background: #ffffff;
-            color: #333333; /* 確保文字是深色 */
+            color: #333333;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -84,7 +124,6 @@
             background-color: #001f44;
         }
         
-        /* 列印與 PDF 輸出專用樣式 */
         @media print {
             body { 
                 background: #ffffff !important; 
@@ -100,7 +139,6 @@
             .no-print, .pdf-btn, .back-btn, nav, footer, .floating-group { 
                 display: none !important; 
             }
-            /* 避免表格與圖片被切斷 */
             table, img, tr, td, th { 
                 page-break-inside: avoid !important; 
             }
@@ -110,7 +148,6 @@
             p, li {
                 page-break-inside: avoid;
             }
-            /* 強制背景顏色與字體顏色列印 */
             * {
                 -webkit-print-color-adjust: exact !important;
                 color-adjust: exact !important;
@@ -127,22 +164,331 @@
             <a href="../index.html" class="back-btn">回首頁</a>
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
-        <div id="content">讀取規則中...</div>
+        <div id="content"><h1 id="2026-grg-公開組-open-category-完整中文規則">2026 GRG 公開組 (Open Category) 完整中文規則</h1>
+<blockquote>
+<p>[!IMPORTANT]
+此中文規則完全基於官方最新釋出的公開組 PDF 進行精準翻譯與校對。所有條款均一字不漏完整翻譯。</p>
+</blockquote>
+<h2 id="1-簡介-introduction">1. 簡介 (Introduction)</h2>
+<p>今年 NRC 的主題是「任務：膳食 (Mission Meals)」，重點關注那些利用科技解決世界各地飢餓問題的個人。這項挑戰旨在透過利用機器人技術，解決確保所有人都能獲得充足且穩定的糧食供應的難題。
+飢餓通常源於食物生產與分配方式的問題。機器人可以在這段旅程的許多階段提供支援——從種植食物，到將食物安全地送到需要的人手中。</p>
+<h2 id="2-線上部分：影片提交-online-component-video-submission">2. 線上部分：影片提交 (Online Component: Video Submission)</h2>
+<p>隊伍需提交一段展示機器人實際運作的示範影片與一段簡報影片。每段影片長度不得超過 3 分鐘。</p>
+<h3 id="規則與規定-rules-and-regulations">規則與規定 (Rules and Regulations)</h3>
+<ul>
+<li>所有影片提交應以適度且合宜的主題為主，保持尊重和包容的氛圍。我們不接受暗示性主題、淫穢內容，或在種族/宗教上不敏感或具攻擊性的內容。</li>
+<li>所有使用的音樂和第三方內容必須獲得適當授權或屬於公有領域。參賽者承擔所有版權合規責任。</li>
+<li>**取消資格的理由 (Grounds for disqualification)**：包含違反安全規則、抄襲、超過時間限制、造假資訊，或破壞比賽誠信的行為。</li>
+<li>**安全 (Safety)**：任何展示不安全機器人或隊伍行為的影片將被立即取消資格。這包含危險物質、明火、煙霧或高速拋射物。</li>
+<li>**電氣安全 (Electrical Safety)**：最大允許電壓為 24V。隊伍必須展示安全的電池安裝與絕緣。若有短路證據或缺乏緊急停止按鈕 (E-Stop)，將導致取消資格。</li>
+<li>**服裝指南 (Attire Guidelines)**：學生必須穿著完整的學校制服。個人參賽者必須穿著 T 恤、長褲與包鞋。禁止：拖鞋、洞洞鞋 (crocs)、短褲和無袖上衣。</li>
+<li>**音訊/視訊 (Audio/Video)**：音訊應該清晰可聽。影片必須在 YouTube 上設定為「非公開 (unlisted)」。</li>
+<li>主辦單位保留限制每所學校/機器人中心允許派出的公開組隊伍總數的權利。</li>
+</ul>
+<h3 id="提交指南-submission-guidelines">提交指南 (Submission Guidelines)</h3>
+<ul>
+<li>每支隊伍<strong>僅限提交一次</strong> - 請在提交前檢查所有資訊。</li>
+<li>**學生作品 (Student Work)**：所有程式設計和影片製作都必須僅由學生完成。老師/教練可以提供技術指導，但不能製作機器人或剪輯影片。</li>
+<li>**影片標題格式 (Video Title Format)**：<ul>
+<li>學校：Team Name_School Name_Age Group (隊伍名稱_學校名稱_年齡組別)</li>
+<li>個人：Your Name_Age Group (你的姓名_年齡組別)</li>
+</ul>
+</li>
+<li>**影片規格 (Video Specifications)**：<ul>
+<li>解析度：至少 1080p</li>
+<li>長度：5 分鐘以內</li>
+<li>畫面比例：16:9</li>
+<li>如果影片有加快或放慢速度，必須清楚顯示影格率標籤（例如 &quot;2x speed&quot;）。</li>
+</ul>
+</li>
+<li>參考第 5.1 節的影片提交評分標準 (Video Submission Rubrics)。</li>
+<li>透過連結提交影片：<a href="https://form.gov.sg/69329042ea8e817df003779f">https://form.gov.sg/69329042ea8e817df003779f</a></li>
+</ul>
+<h3 id="個資保護-pdpa">個資保護 (PDPA)</h3>
+<p>藉由提交影片參賽，參賽者承認並同意以下事項：</p>
+<ul>
+<li>**收集 (Collection)**：包含姓名、影像、肖像、聲音以及影片內的個人資料。</li>
+<li>**使用 (Use)**：用於與比賽相關的目的，包含管理、評審和推廣/行銷。</li>
+<li>**揭露 (Disclosure)**：向評審、合作夥伴、供應商和第三方平台（例如影片代管服務）揭露，這些平台可能位於新加坡境外。</li>
+<li>**發布 (Publication)**：承認提交的影片可能會被公開存取。</li>
+<li>**聲明 (Representations)**：參賽者已獲得影片中所有可識別個人的必要同意。</li>
+<li>**保留 (Retention)**：資料將根據法律/業務要求的必要時間進行保留，然後安全銷毀。</li>
+<li>**未成年人 (Minors)**：13 歲以下的參賽者必須在父母或法定監護人的同意下提交。</li>
+</ul>
+<h2 id="3-挑戰-challenges">3. 挑戰 (Challenges)</h2>
+<p>隊伍將開發解決以下概述的一個或多個關鍵挑戰的機器人解決方案。此外，要嘗試加分挑戰 (bonus challenge)，隊伍必須先解決至少一個關鍵挑戰。</p>
+<h3 id="a-缺乏糧食生產基礎設施-lack-of-food-production-infrastructure">a) 缺乏糧食生產基礎設施 (Lack of Food Production Infrastructure)</h3>
+<p><strong>挑戰描述：</strong> 如果沒有適當的糧食生產基礎設施，農作物就無法免受天氣條件的影響，也無法進行適當的澆水或有效的種植，這可能會導致產量減少。
+<strong>可能的機器人解決方案：</strong> 機器人可以組裝輕型框架、安裝栽培架、有系統地放置植物盆、連接灌溉軟管，並固定面板。
+<strong>對飢餓的影響：</strong> 這可以解決糧食生產基礎設施缺乏的問題，進而使糧食生產更加穩定。</p>
+<h3 id="b-勞力密集的糧食生產過程-labour-intensive-food-production-processes">b) 勞力密集的糧食生產過程 (Labour-Intensive Food Production Processes)</h3>
+<p><strong>挑戰描述：</strong> 諸如收成與對收成/捕獲的產品進行分類等任務，在很大程度上仍然是由手工完成的。然而，這些任務是勞力密集的，並且難以提高效率。
+<strong>可能的機器人解決方案：</strong> 機器人可以，例如，執行除草、授粉，以及收割蔬菜、雞蛋和魚類，以及對收成或捕獲的產品進行分類。
+<strong>對飢餓的影響：</strong> 使糧食生產自動化的機器人將使糧食生產更有效率。</p>
+<h3 id="c-糟糕的物流-poor-logistics">c) 糟糕的物流 (Poor Logistics)</h3>
+<p><strong>挑戰描述：</strong> 如果食物運輸得太慢或沒有保持在合適的溫度，即使它是精心生產的，也可能不得不被扔掉。此外，如果某些地區的食物過剩，而其他地區的食物不足，食物就無法有效地與每個人分享。
+<strong>可能的機器人解決方案：</strong> 機器人可以在保持合適溫度的同時運送食物。
+<strong>對飢餓的影響：</strong> 藉由建立高效的運輸與糧食供應系統，可以更有效地分配糧食並減少飢餓。</p>
+<h3 id="d-透過末端執行器設計實現機器人多功能性-加分挑戰-robot-versatility-through-end-effector-design-bonus-challenge">d) 透過末端執行器設計實現機器人多功能性 (加分挑戰) (Robot Versatility through End-Effector Design (Bonus Challenge))</h3>
+<p><strong>挑戰描述：</strong> 由於機器人專門用於單一任務，導致機器人部署面臨效率低下的問題。由於需要更多數量的機器人來解決不同的任務，這種限制增加了成本。
+<strong>可能的機器人解決方案：</strong> 以移動機器人、無人機或人形機器人作為基礎平台，可以實施模組化系統，其中可更換的末端執行器 (interchangeable end-effectors) 使單個機器人能夠執行多項任務。例子包含：</p>
+<ul>
+<li>用於農作物栽培的盆栽放置工具</li>
+<li>用於溫室組裝的框架固定工具</li>
+<li>用於均勻分佈的種子與肥料分配器</li>
+<li>用於農作物收成的軟夾具 (Soft Gripper)</li>
+<li>用於牲畜照顧的專用工具</li>
+</ul>
+<p>隊伍應開發至少兩個可更換的末端執行器。
+<strong>對飢餓的影響：</strong> 如果一個機器人可以完成許多不同的工作，機器人就可以更便宜、更有效地被用來幫助解決飢餓問題。</p>
+<h2 id="4-現場部分：專案攤位-onsite-component-project-booth">4. 現場部分：專案攤位 (Onsite Component: Project Booth)</h2>
+<p>入圍的隊伍需要在專案攤位或指定區域展示他們的機器人解決方案。每支隊伍大約獲得 2m x 2m 的地板空間。
+隊伍應利用攤位展示有關其機器人解決方案的研究和開發資訊。所有攤位裝飾和設置（包含機器人解決方案）都必須留在攤位區域內。使用道具、裝飾品或機器人超出邊界的隊伍將面臨處罰。如果專案需要液體，隊伍僅限使用水。</p>
+<h3 id="評審格式與要求-judging-format--requirements">評審格式與要求 (Judging Format &amp; Requirements)</h3>
+<ul>
+<li>隊伍在攤位有 30 分鐘的時間進行設置和測試。</li>
+<li>機器人的展示將在一個或兩個評審場次中進行。</li>
+<li>在每場評審中，隊伍將有最多 10 分鐘的簡報時間和 5 分鐘的問答時間。</li>
+<li>隊伍應熟悉比賽當天的時間表，並確保在他們的場次期間留在攤位。</li>
+<li>如果機器人解決方案無法正常運作，隊伍需在下一場次前進行故障排除。</li>
+<li>每個年齡組的最低隊伍數量為 10 支才能進行評審；否則，年齡組將被合併。例如，如果只有 3 支大專組隊伍，他們將與中學組隊伍一起接受評審。</li>
+</ul>
+<h3 id="年齡組別要求-age-group-requirements">年齡組別要求 (Age Group Requirements)</h3>
+<ul>
+<li>**小學 (Primary) (7 至 12 歲)**：如果您屬於此年齡組，您將需要解釋您的機器人解決方案如何解決糧食生產力方面的問題，使其更能抵抗天氣影響、更有效地分配或更具生產效率。</li>
+<li>**中學 (Secondary) (13 至 16 歲)**：如果您屬於此年齡組，您將需要解釋您的機器人解決方案如何解決農業中的問題，並展示它如何對勞工的生活產生積極影響。</li>
+<li>**大專 (Tertiary) (17 至 19 歲)**：如果您屬於此年齡組，您將需要解釋您的機器人解決方案如何解決問題描述，以及它如何成為現實。描述必須克服哪些挑戰才能使其在農業或任何其他相關行業中廣泛使用。</li>
+</ul>
+<h2 id="5-評分標準-scoring-rubrics">5. 評分標準 (Scoring Rubrics)</h2>
+<h3 id="51-線上提交-for-online-submission">5.1 線上提交 (For Online Submission)</h3>
+<p>線上部分評估影片提交中所展示的技術效率與邏輯：</p>
+<ul>
+<li>機械效率 (Mechanical Efficiency)：有效利用零件和能源；堅固耐用 – 5 分</li>
+<li>自動化 (Automation)：來自感測器的適當輸入 – 5 分</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>主要類別 (Main Category)</th>
+<th>次類別/標準 (SubCategory / Criteria)</th>
+<th>分數 (Points)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1. 問題與概念清晰度 (Problem &amp; Concept Clarity) (總分: 20)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>問題定義：清晰表達並在情境上合理。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>概念原理：解釋了所選解決方案背後的邏輯。</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>2. 工程設計 (Engineering Design) (總分: 30)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>系統解釋：架構與演算法邏輯。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>工程深度：原理與技術推理。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>設計權衡：討論決策與限制。</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>3. 展示的功能性 (Demonstrated Functionality) (總分: 20)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>清楚的操作：機器人清晰可見且易於理解。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>任務完成：在記錄中可以驗證完整的任務。</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>4. 開發與反思 (Development &amp; Reflection) (總分: 15)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>迭代開發：測試與改進的證據。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>挑戰分析：解決技術挑戰。</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>5. 溝通與製作 (Communication &amp; Production) (總分: 15)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>結構清晰度：影片的邏輯流暢度。</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>視覺支援：圖表、字幕和圖層 (overlays)。</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>傳達品質：清晰且節奏合適的口頭解釋。</td>
+<td>5</td>
+</tr>
+</tbody></table>
+<h3 id="52-現場提交-for-onsite-submission">5.2 現場提交 (For Onsite Submission)</h3>
+<table>
+<thead>
+<tr>
+<th>類別 (Category)</th>
+<th>標準 (Criteria)</th>
+<th>分數 (Points)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>專案 (Project) (總分: 30)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>創造力：原創、創新和創造性思維。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>解決方案品質：有效且詳細闡述的原型。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>限制：識別並克服設計限制。</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>程式設計 (Programming) (總分: 30)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>自動化：針對常規適當使用感測器。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>良好邏輯：可靠且高效的選項。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>可讀性：使用變數和註解，易於遵循。</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>工程設計 (Engineering Design) (總分: 50)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>技術理解：對過程的精確解釋。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>工程概念：概念和零件使用的證據。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>效率與穩定性：正確使用原理；堅固的構造。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>美學：專業的外觀與獨特的設計。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>成功展示：原型重複完成任務。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>加分挑戰 (Bonus Challenge)：單一機器人展示 2 個以上任務。</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>簡報 (Presentation) (總分: 40)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>溝通：簡潔、引人入勝且流暢的表達。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>快速反應：能夠回答評委問題並解決問題。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>娛樂性：保持觀眾興趣。</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>攤位設計：使用永續材料營造「WOW」因素。</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>學習旅程 (Learning Journey) (總分: 10)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>學習成果：內化知識的證據。</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>團隊合作：正能量和有凝聚力的貢獻。</td>
+<td>5</td>
+</tr>
+</tbody></table>
+</div>
         <div class="no-print" style="margin-top: 40px; text-align: center;">
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
     </div>
-
-    <script>
-        fetch('Open_Rules_2026-06-01.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
-            })
-            .catch(err => {
-                document.getElementById('content').innerHTML = '無法載入規則文件。';
-                console.error(err);
-            });
-    </script>
 </body>
 </html>

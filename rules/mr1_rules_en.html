@@ -3,23 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRG 2026 - MR1 (English) 完整中文規則</title>
+    <title>GRG 2026 - MR1 (English) 完整競賽規則 | Global Robotics Games Taiwan</title>
+    <meta name="description" content="2026 Global Robotics Games (GRG) 台灣賽區 MR1 (English) 詳細競賽規則、年齡規範、器材限制、任務場地圖與評分標準說明。">
+    <meta name="keywords" content="GRG, GRG 2026, MR1 (English), Global Robotics Games, 競賽規則, 機器人比賽, SPARK, 臺灣智能程式科技教育推廣協會">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://global-robotics-games-taiwan.github.io/rules/mr1_rules_en.html">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://global-robotics-games-taiwan.github.io/rules/mr1_rules_en.html">
+    <meta property="og:title" content="GRG 2026 - MR1 (English) 完整競賽規則 | Global Robotics Games Taiwan">
+    <meta property="og:description" content="2026 Global Robotics Games (GRG) 台灣賽區 MR1 (English) 詳細規範與計分指南。">
+    <meta property="og:image" content="https://global-robotics-games-taiwan.github.io/images/your-image-filename.png">
+
+    <!-- Schema.org Breadcrumbs & Article for SEO & AI Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "GRG Taiwan 首頁",
+          "item": "https://global-robotics-games-taiwan.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "競賽規則",
+          "item": "https://global-robotics-games-taiwan.github.io/#rules"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MR1 (English)",
+          "item": "https://global-robotics-games-taiwan.github.io/rules/mr1_rules_en.html"
+        }
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
-            /* 覆蓋首頁的深色背景，確保獨立頁面好閱讀 */
             background-color: #f4f6f9;
         }
         body::before {
-            display: none !important; /* 隱藏深色漸層背景 */
+            display: none !important;
         }
         .rules-container {
             max-width: 900px;
             margin: 40px auto;
             padding: 40px;
             background: #ffffff;
-            color: #333333; /* 確保文字是深色 */
+            color: #333333;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -84,7 +124,6 @@
             background-color: #001f44;
         }
         
-        /* 列印與 PDF 輸出專用樣式 */
         @media print {
             body { 
                 background: #ffffff !important; 
@@ -100,7 +139,6 @@
             .no-print, .pdf-btn, .back-btn, nav, footer, .floating-group { 
                 display: none !important; 
             }
-            /* 避免表格與圖片被切斷 */
             table, img, tr, td, th { 
                 page-break-inside: avoid !important; 
             }
@@ -110,7 +148,6 @@
             p, li {
                 page-break-inside: avoid;
             }
-            /* 強制背景顏色與字體顏色列印 */
             * {
                 -webkit-print-color-adjust: exact !important;
                 color-adjust: exact !important;
@@ -127,22 +164,378 @@
             <a href="../index.html" class="back-btn">回首頁</a>
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
-        <div id="content">讀取規則中...</div>
+        <div id="content"><h1 id="2026-grg-mobile-robotics-i-mr1-rules---original-english-version">2026 GRG Mobile Robotics I (MR1) Rules - Original English Version</h1>
+<blockquote>
+<p>[!IMPORTANT]<br>This is the exact verbatim original English rulebook as provided by the official Global Robotics Games.</p>
+</blockquote>
+<h2 id="1-introduction">1. Introduction</h2>
+<p><strong>Welcome to the Zero Hunger Challenge!</strong></p>
+<p><strong>What is UN SDG #2: Zero Hunger?</strong><br>Imagine you wake up tomorrow and there&#39;s no breakfast. Your stomach growls through your first class. This is how many children feel every day around the world. Now imagine a world where every single person has enough healthy food to eat every day. This is the goal of United Nations Sustainable Development Goal #2: Zero Hunger.
+The world is a noticeably big place, and right now, it is struggling to feed everyone. In 2024, the UN found that about 1 in 12 people in the world—that is nearly 700+ million people—faced hunger. Even more concerning is that 2.3 billion people (nearly 1 out of every 3 people on Earth) do not always know where their next healthy meal is coming from.
+When we look at children, the numbers show why we need your help. About 148 million children are smaller or weaker than they should be because they do not get enough nutrients. To solve this, we need to build &quot;Sustainable Food Systems&quot;, which is just a fancy way of saying we need to be smarter and kinder about how we grow, share, and eat our food.</p>
+<p><strong>Why are WE starting at School?</strong><br>Change starts where we live and learn! Our competition takes place on a map of a school. By looking at our canteens, gardens, and classrooms, we can discover how to fight hunger right here at home. When we learn to manage food at school, we learn how to save the world!</p>
+<p><strong>Your Robot’s Mission</strong><br>This year, your team will build and program a robot to become a Mission Meals hero. Your missions are based on the real-world steps needed to achieve Zero Hunger:</p>
+<ul>
+<li><strong>Local Farming (Food Miles):</strong> Reducing the distance food travels to keep it fresh and save fuel.</li>
+<li><strong>Waste Reduction (Lunchroom Leftovers):</strong> Using technology to sort food so that nothing good goes to waste.</li>
+<li><strong>The Circle of Life (Compost Crusaders):</strong> Turning old food scraps into &quot;brown gold&quot; (compost) to grow new plants.</li>
+<li><strong>Community Kindness (Sharing is Caring):</strong> Making sure extra food gets to the people who need it most.</li>
+<li><strong>Smart Resources (Water for Our Plants):</strong> Using robots to protect our most precious resource: water.</li>
+<li><strong>Quality Control (Healthy Snack Detectives):</strong> Ensuring every snack is safe, healthy, and ready to eat!</li>
+</ul>
+<p><strong>Become a Changemaker!</strong><br>As you work on your robot, we want you to think like an explorer. Ask your teammates:</p>
+<ul>
+<li>Where does our canteen food come from?</li>
+<li>How can we help our school waste less water?</li>
+<li>How can robots make it easier to share with others?</li>
+</ul>
+<p>The code you write and the robot you build today are the first steps toward a world where no one goes hungry. Let us get to work, Mission Meal heroes!</p>
+<hr>
+<h2 id="2-guide-to-reading-the-challenge-doc">2. Guide to reading the Challenge Doc</h2>
+<p>Here is a guide that you can follow to understand how the robot game&#39;s document has been organized.</p>
+<p><strong>Step 1: Read the Introduction.</strong><br>This tells you about the hunger problem in our world and how you can help solve it.</p>
+<p><strong>Step 2: Glance through the Game Field.</strong><br>This is the playfield on which your robot will run. It shows you the placement of the missions. You will find two semi circles on the left and right of the playfield. These are called Start Areas and they are like your home.</p>
+<p><strong>Step 3: Understand the missions.</strong><br>As you go through the missions, refer to the game field. Some missions stay in one place, while others have props you can move around. Importantly, know the scores you get for each mission and learn how to earn points for each mission carefully. </p>
+<p><strong>Step 4: Read the Rules for the dos and don’ts.</strong><br>It is important to understand what rules you must follow so you don&#39;t get disqualified (removed from the game).</p>
+<p>That’s it! This was an easy guide to get you started in your Global Robotics Games journey. Have fun reading and coding!</p>
+<hr>
+<h2 id="3-game-field">3. Game Field</h2>
+<p><strong>The Game Field: Your school compound</strong>
+The competition takes place on a large mat that represents a School Compound.
+The mat is divided into different zones that look just like your school:</p>
+<p><img src="../images/rules/MR1_inline_image__2_.png" alt="Game Field"></p>
+<ul>
+<li>🟩 <strong>Start Areas:</strong> These are the areas where your robot begins its journey and where you can safely touch your robot during the match.</li>
+<li>🟩 <strong>The Garden:</strong> Where the pink and purple cubes ‘grow.’</li>
+<li>🟩 <strong>The Canteen:</strong> A busy area where snacks and food are sorted and shared.</li>
+<li>🟩 <strong>The Pool &amp; Compost Areas:</strong> Specialized zones for water and recycling old food into soil, respectively.</li>
+<li>🟩 <strong>The Stadium:</strong> Where dietary requirements must be met to provide energy for physical activities.</li>
+</ul>
+<p><strong>Symbols and Markings</strong>
+Keep a close eye on the shapes printed on the mat:</p>
+<ul>
+<li><strong>Empty Squares:</strong> These show you exactly where a cube should be placed at the start of the match.</li>
+<li><strong>Empty Circles:</strong> These are &quot;Target Zones.&quot; If you deliver a resource into a circle, you will earn points!</li>
+</ul>
+<h3 id="31-start-area">3.1 Start Area</h3>
+<p>The Start Area is where every team begins their robot-run.
+What happens in the Start Area:</p>
+<ul>
+<li>✅ Your robot gets checked before each run (refer to 6.1: Pre-Run).</li>
+<li>✅ You are allowed to touch your robot and robot-equipment during the match.</li>
+<li>✅ You can leave behind robot equipments and parts here if your robot doesn&#39;t need them.</li>
+<li>✅ You can store large or small cubes here (unless stated otherwise in the rules of the missions).</li>
+</ul>
+<p><strong>No-Touch Rule:</strong> Teams are not allowed to touch their robots, robot-equipment, or cubes if it is fully or partially outside of the black border at the Start Area.<br><strong>Penalty:</strong> If you accidentally touch any cube that is partially or fully outside the black border of the Start Area, the referee will remove that cube from the game permanently.</p>
+<hr>
+<h2 id="4-game-objects--positioning">4. Game Objects &amp; Positioning</h2>
+<p><strong>Game Field: Cube Starting Positions</strong>
+Before the start of the match, cubes of two sizes and assorted colours are spread out on the playfield. The starting positions may be marked with either a square or a circle with a black border.</p>
+<p>Here is a pictorial guide to help you with the starting positions of the cubes:</p>
+<p><img src="../images/rules/MR1_game_objects.png" alt="Game Objects &amp; Positioning"></p>
+<p><strong>Mission Cube Designations</strong>
+You may refer to the table below to confirm the colours designated for each mission:</p>
+<table>
+<thead>
+<tr>
+<th>Mission Name</th>
+<th>Large Cubes (50mm)</th>
+<th>Small Cubes (25mm)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5.1 Food Miles</td>
+<td>1 Pink</td>
+<td>4 Purple</td>
+</tr>
+<tr>
+<td>5.2 Lunchroom Leftovers</td>
+<td>—</td>
+<td>3 White, 2 Red</td>
+</tr>
+<tr>
+<td>5.3 Compost Crusaders</td>
+<td>2 Green</td>
+<td>(Uses 2 Red from 5.2)</td>
+</tr>
+<tr>
+<td>5.4 Sharing is Caring</td>
+<td>—</td>
+<td>5 Orange</td>
+</tr>
+<tr>
+<td>5.5 Water for Plants</td>
+<td>1 Blue</td>
+<td>2 Purple</td>
+</tr>
+<tr>
+<td>5.6 Snack Detectives</td>
+<td>S1: 1 Yellow<br>S2: 2 White<br>S3: 1 Yellow, 1 Blue</td>
+<td>S1: 1 White<br>S2: —<br>S3: 1 White</td>
+</tr>
+<tr>
+<td>Safety Bonus (5.1)</td>
+<td>—</td>
+<td>8 Yellow (Obstacles)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="5-robot-missions-and-scoring">5. Robot Missions and Scoring</h2>
+<p>For a better understanding, the missions will be explained in multiple sections.</p>
+<h3 id="51-food-miles-mission-and-school-garden-helpers">5.1. Food Miles Mission and School Garden Helpers</h3>
+<p><img src="../images/rules/MR1_inline_image4.png" alt="Food Miles Mission"></p>
+<p><strong>Mission Description</strong>
+This mission is about finding out where our food comes from. To help stop hunger, we want our food to travel a short distance from the farm to our plate. Shorter travel time means food is fresher and better for us, and it helps the environment by using less fuel. This supports making food systems sustainable.</p>
+<p><strong>Mission Requirements</strong>
+Your goal is to connect the resources from different points, simulating the flow of local produce:</p>
+<ul>
+<li>The robot must drive along the greyish-blue path with at least two turns.</li>
+<li>There is one large pink cube located in the garden area.</li>
+<li>The large pink cube cannot leave the Garden area at any time throughout the match.</li>
+<li>There are four small purple cubes randomly placed along the greyish-blue road (the path).</li>
+<li>The student&#39;s robot must connect the four small purple cubes to the one large pink cube.</li>
+</ul>
+<p><strong>Scoring and Safety Constraints</strong></p>
+<ul>
+<li><strong>Scoring Constraint:</strong> Any small purple cube that is not touching any of the surface of the large pink cube is considered not connected, either directly or indirectly, to the large pink cube and thus will not be scored. The flat surface of the small purple cubes not connected to the flat surface of the large pink cube (either directly or through the connected cubes indirectly) will not be scored.</li>
+<li><strong>Safety/Foul Constraint:</strong> The robot must be careful to avoid touching the yellow cubes. If the yellow cubes touch any of the purple cubes, those purple cubes will not receive any scores.</li>
+<li><strong>Scoring Constraint:</strong> The pink cube may only touch the small purple cubes. At the end of the match, the pink cube should not be touching any other coloured cubes.</li>
+</ul>
+<h3 id="52-lunchroom-leftovers-wasting-less-food">5.2. Lunchroom Leftovers: Wasting Less Food</h3>
+<p><img src="../images/rules/MR1_inline_image.png" alt="Lunchroom Leftovers Mission"></p>
+<p><strong>Mission Description: Food Waste Reduction</strong>
+This mission teaches us to stop wasting food. A big part of solving world hunger is making sure we use all the food we produce. Robots can help sort out what food is still good for consumption and what should be composted (turn old food into new soil). By identifying and classifying food accurately, we make sure only spoilt food is thrown away, helping everyone get enough to eat.</p>
+<p><strong>Mission Requirements</strong>
+The robot must distinguish between distinct types of food to promote waste reduction:</p>
+<ul>
+<li>There are five small cubes located in the canteen area.</li>
+<li>These five cubes are split into three white cubes and two red cubes.</li>
+<li>The robot needs to accurately identify the two red cubes (representing the &quot;leftovers&quot;).</li>
+<li>The robot must then send the red cubes into the composting area.</li>
+<li>The robot must leave the three white cubes - food that is good for consumption - in the canteen area.</li>
+</ul>
+<p><em>The team will be penalised with demerit points if any of the white cubes are not found in their starting positions at the end of the match.</em></p>
+<h3 id="53-compost-crusaders-turning-old-food-into-new-soil">5.3. Compost Crusaders: Turning Old Food into New Soil</h3>
+<p><strong>Mission Description: Composting and Soil Health</strong>
+Composting helps us turn food scraps into rich soil for growing new food. This is called sustainable resource use. Instead of throwing away old food, we use robotics to compost it into nutrients. This saves space in landfills and makes better soil, which is important for growing healthy crops year after year to fight hunger.</p>
+<p><strong>Mission Requirements</strong>
+This mission requires the movement of both composting materials and finished compost (nutrients):</p>
+<ul>
+<li>The two small red cubes (collected from the Lunchroom Leftovers mission) must be fully delivered to the composting area.</li>
+<li>There are two large green cubes already present in the composting area.</li>
+<li>The robot must move these two large green cubes and bring them to any Start Area.</li>
+</ul>
+<p><em>Scoring Constraint: Teams will not score for Mission 5.3, if there are no red cubes in the composting area.</em></p>
+<h3 id="54-sharing-is-caring-food-donation-drive">5.4. Sharing is Caring: Food Donation Drive</h3>
+<p><img src="../images/rules/MR1_inline_image6.png" alt="Sharing is Caring Mission"></p>
+<p><strong>Mission Description: Food Donation Drive</strong>
+Some people don’t have access to enough food, while others have extra. This mission is about helping people who do not have enough food. In cities, it can be hard to get fresh food. Robots can help collect extra food and deliver it to places where it is needed. By organising this food donation drive, we help achieve food security and make sure no one goes hungry.</p>
+<p><strong>Mission Requirements</strong>
+The objective is to collect and distribute food resources efficiently:</p>
+<ul>
+<li>There are five small orange cubes placed randomly on the tables in the canteen area.</li>
+<li>The robot must collect these five cubes.</li>
+<li>The collected cubes must then be sent to any of the seven circles marked across the game field.</li>
+</ul>
+<p><em>Spread the kindness - each cube you deliver helps to feed a hungry person!</em></p>
+<h3 id="55-water-for-our-plants-saving-water-where-we-can">5.5. Water for Our Plants: Saving Water where we can</h3>
+<p><img src="../images/rules/MR1_inline_image7.png" alt="Water for Our Plants Mission"></p>
+<p><strong>Mission Description: Water Conservation</strong>
+Water is a precious resource for growing food. This mission focuses on saving water by using smart systems. Vertical farms use less water because they recycle it. The robot’s job is to protect the conserved water (blue cube) by removing other elements that may dirty or pollute it, showing how technology ensures we have enough water for all our plants, even with changing weather.</p>
+<p><strong>Mission Requirements</strong>
+The challenge focuses on securing and conserving the precious resource:</p>
+<ul>
+<li>A stack is set up in the pool area, consisting of one large blue cube standing on top of two small purple cubes.</li>
+<li>The robot must remove the two small purple cubes from under the large blue cube.</li>
+<li>The two small purple cubes need to be out of the pool area when scoring is completed.</li>
+<li>The robot must leave the large blue cube anywhere within the pool area.</li>
+</ul>
+<p><strong>Critical Constraint 1:</strong> The large blue cube CANNOT enter any of the Start Areas.
+<strong>Critical Constraint 2:</strong> Teams cannot use any other cubes to assist the robot in completing this mission.</p>
+<h3 id="56-healthy-snack-detectives-choosing-good-food-for-our-bodies">5.6. Healthy Snack Detectives: Choosing Good Food for our Bodies</h3>
+<p><strong>Mission Description: Healthy Food detective</strong>
+To fight hunger, we must also promote good nutrition. This mission is about using robots and sensors to check the quality of food (the stacks) and collect important data. By carefully moving the food stacks without changing them, the robot acts like a detective, making sure that the food that reaches our plates are fresh and healthy.</p>
+<p><strong>Mission Requirements</strong>
+The robot must transport food samples without damaging them:</p>
+<ul>
+<li>There are three pre-built stacks of cubes on the field:<ul>
+<li>First stack: 1 small white cube on top of 1 large yellow cube.</li>
+<li>Second stack: 1 large white cube on top of 1 large white cube.</li>
+<li>Third stack: 1 large yellow cube on the bottom, 1 small white cube in the middle, and 1 large blue cube on top.</li>
+</ul>
+</li>
+<li>The robot must deliver the three stacks as they are to the Start Area.</li>
+<li>Referees will see that the team only touches the cubes when they are completely in the Start Area.</li>
+<li>If a stack is destroyed outside home or returned to the Start Area separately, they cannot be recombined to earn points.</li>
+</ul>
+<p><strong>Critical Constraint:</strong> The stacks cannot be modified in any way while being transported from the stadium area to any Start Area. No cubes can be added, removed, or rearranged.</p>
+<hr>
+<h2 id="6-sub-category-game-rules">6. Sub-Category Game Rules</h2>
+<p>If there is any uncertainty during the robot attempt, the Referee makes the final decision. The Referee should decide in favour of the team if no clear decision is possible.
+The set of rules can be broken up into four sections. There are rules that the team must follow before the match begins (Pre-Run), rules to follow when the match has started and before the 2:00 minutes is up (During the Run), and rules to follow after the match has ended (post-run).</p>
+<h3 id="61-getting-ready-pre-run-rules">6.1 Getting Ready: Pre-Run Rules</h3>
+<p>Before the 2-minute match begins, we need to make sure your robot and equipment are ready for competition! This is called the Pre-Run check.</p>
+<ul>
+<li>📏 <strong>Size Check (The Robot Box):</strong> Your main Robot and all its attached pieces (robot-equipment) must fit completely inside an imaginary box that is 250mm x 250mm x 250mm. Referees will check this size before your run.</li>
+<li>📍 <strong>Starting Position:</strong> After the size check, your robot and all its equipment must be placed inside any of the Start Area. You cannot make any changes to your robot after it passes the size inspection and before the game starts.</li>
+<li>🚫 <strong>Magnets</strong> are strictly not allowed on any part of the robot, including the robot body, attachments, mechanisms, or decorative parts. Robots found with magnets will be disqualified from the round.</li>
+<li>🚫 <strong>No Secret Parts:</strong> You are not allowed to hide or keep any robot parts or attachments in your hand or off the game field to be used later during the match. Everything you plan to use must start on the field.</li>
+<li>🧱 <strong>LEGO® Only:</strong> The referee will ensure you are only using official LEGO® bricks and parts.</li>
+</ul>
+<h3 id="62-the-match-is-about-to-begin">6.2 The Match is About to Begin</h3>
+<ul>
+<li>Time begins when the referee gives the signal to start. The referee will give a command: “G. R. G. Go!” (or something similar.)</li>
+<li>Match Duration: Each robot match is a maximum of 2:00 minutes long (120 seconds). After 120 seconds, the referee will not consider any points that the robot gains.</li>
+</ul>
+<h3 id="63-what-you-can-and-cant-do">6.3 What You Can and Can&#39;t Do</h3>
+<p>During the match, when your robot is out on the field, most of the time you cannot touch it! However, you can stop your robot and touch it when it comes back to the Start Areas.</p>
+<p><strong>If Your Robot is FULLY STOPPED in the Start Area, You ARE ALLOWED To:</strong></p>
+<ul>
+<li><strong>Touch Your Robot:</strong> You can carefully touch and move your robot to a new spot inside the Start Area.</li>
+<li><strong>Switch Programs:</strong> You can pick a different program for your robot to run next.</li>
+<li><strong>Manage Parts:</strong> You can remove or add attachments (robot-equipment) and game objects (mission props) from the robot by hand.</li>
+<li><strong>Get Ready to Run:</strong> Once you are done loading or unloading parts, you can move your robot into position to start its next run.</li>
+<li><strong>Connect Cubes by Hand:</strong> You are allowed to manually connect the magnetic cubes together.</li>
+</ul>
+<p><strong>At ANY TIME During the Match, You ARE NOT ALLOWED To:</strong></p>
+<ul>
+<li><strong>Touch a Moving Robot:</strong> You cannot touch your robot when it is moving on the playfield. The referee will stop the match and record any scores.</li>
+<li><strong>Touch Props Outside:</strong> You cannot repair or touch your robot-equipment or props that are even partly outside of the black border of the Start Area.<ul>
+<li>This rule is still in place even if your robot is stopped in the Start Area.</li>
+<li>This rule applies even if the robot accidentally pushes a prop out of the Start Area.</li>
+</ul>
+</li>
+</ul>
+<h3 id="64-how-the-match-ends-and-scoring">6.4 How the Match Ends and Scoring</h3>
+<p><strong>When the Match Stops</strong>
+A robot attempt will end if:</p>
+<ul>
+<li><strong>Time Runs Out:</strong> The 2-minute (120 seconds) clock hits zero.</li>
+<li><strong>Off the Table:</strong> Your robot has completely driven off the game table.</li>
+<li><strong>Breaking Rules:</strong> Your robot or team violates the rules or any regulations.</li>
+<li><strong>Shout &quot;STOP&quot;:</strong> A team member shouts &quot;STOP,” and the robot completely stops moving.<ul>
+<li>If the robot is still moving after you call &quot;STOP,&quot; the attempt will only end once the robot stops on its own or is stopped by the team.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Finalising the Score</strong></p>
+<ul>
+<li><strong>Scoring Process:</strong> After the robot run is over, the referee will score the attempt.</li>
+<li><strong>Sign-Off:</strong> Teams must sign the scoring sheet (paper or digital) to agree with the score. Once you sign, no more changes can be made.</li>
+<li><strong>Disputes:</strong> If a team refuses to sign after a reasonable time, the judge may disqualify the team for that round.</li>
+<li><strong>Coach and Proof:</strong> Coaches are not allowed to join discussions with referees about scoring. Video or photo proof will not be accepted.</li>
+<li><strong>Empty Score Time:</strong> If a team finishes a run without scoring any positive points, the time is automatically set to 120 seconds.</li>
+<li><strong>Ranking:</strong> If teams have the same total points, their final ranking will be decided by the time recorded for their attempt.</li>
+</ul>
+<hr>
+<h2 id="7-scoring">7. Scoring</h2>
+<h3 id="mission-scoring-summary">Mission Scoring Summary</h3>
+<p>Use the table below to track your points and understand the maximum score for each mission.</p>
+<table>
+<thead>
+<tr>
+<th>Mission</th>
+<th>Points</th>
+<th>Max</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>5.1 Food Miles Mission and School Garden Helpers</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Purple cubes connected to pink cube</td>
+<td>3 pts / cube</td>
+<td>12</td>
+</tr>
+<tr>
+<td>&quot;Clean&quot; Yellow cubes (not touching anything)</td>
+<td>1 pt / cube</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>5.2 Lunchroom Leftovers: Wasting Less Food</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Red cubes delivered to Composting Area</td>
+<td>5 pts / cube</td>
+<td>10</td>
+</tr>
+<tr>
+<td>White cube is moved out of its starting position</td>
+<td>-5 pts / cube</td>
+<td>-15</td>
+</tr>
+<tr>
+<td><strong>5.3 Compost Crusaders: Turning Old Food into New Soil</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Green cubes delivered to Start Area (requires 2 red cubes in Composting Area)</td>
+<td>15 pts / cube</td>
+<td>30</td>
+</tr>
+<tr>
+<td><strong>5.4 Sharing is Caring: Food Donation Drive</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Orange cubes placed in any of the 7 target circles</td>
+<td>9 pts / cube</td>
+<td>45</td>
+</tr>
+<tr>
+<td><strong>5.5 Water for Our Plants: Saving Water where we can</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Two small Purple cubes no longer in Pool Area</td>
+<td>10 pts / cube</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Blue cube remains in the Pool Area</td>
+<td>25 pts</td>
+<td>25</td>
+</tr>
+<tr>
+<td><strong>5.6 Healthy Snack Detectives: Choosing Good Food for our Bodies</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Stack 1 delivered to Start Area</td>
+<td>10 pts</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Stack 2 delivered to Start Area</td>
+<td>15 pts</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Stack 3 delivered to Start Area</td>
+<td>25 pts</td>
+<td>25</td>
+</tr>
+<tr>
+<td><strong>Total Possible Points</strong></td>
+<td></td>
+<td><strong>200</strong></td>
+</tr>
+</tbody></table>
+<h2 id="8-scoring-interpretation">8. Scoring Interpretation</h2>
+<p>This section will be uploaded soon</p>
+</div>
         <div class="no-print" style="margin-top: 40px; text-align: center;">
             <button onclick="window.print()" class="pdf-btn">下載為 PDF (列印)</button>
         </div>
     </div>
-
-    <script>
-        fetch('MR1_Rules_EN_2026-06-01.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
-            })
-            .catch(err => {
-                document.getElementById('content').innerHTML = '無法載入規則文件。';
-                console.error(err);
-            });
-    </script>
 </body>
 </html>

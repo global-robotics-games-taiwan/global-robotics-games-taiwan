@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# AI Crawlers explicitly welcomed for GEO (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://global-robotics-games-taiwan.github.io/sitemap.xml
